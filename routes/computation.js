@@ -8,9 +8,7 @@ router.get('/', function(req, res, next) {
     router.post(a=Math.hypot(m,n));
     router.post(b=Math.ceil(m));
     router.post(c=Math.clz32(n));
-    res.send(`hypot applied to ${m} and ${n} is ${a}`);
-    res.send(`ceil applied to ${m} is ${b}`);
-    res.send(`clz32 applied to ${n} is ${c}`);
+    res.send(`hypot applied to ${m} and ${n} is ${a} \n ceil applied to ${m} is ${b} \n clz32 applied to ${n} is ${c}`);
 
 });
 
